@@ -88,7 +88,7 @@
 
 <body>
     <div class="tdo">
-        <form class="form" class=" justify-content: center">
+        <form class="form" class=" justify-content: center" action="{{router('iniciar-sesion')}}">
             <p class="form-title">Iniciar sesión en su cuenta</p>
             <div class="input-container">
                 <input type="email" placeholder="Inglese email">
