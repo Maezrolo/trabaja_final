@@ -22,3 +22,4 @@ Route::get('/login', function () {
 });
 
 Route::view('/login',"login")->name('login');
+Route::view('/registro',"registro")->name('registro');
