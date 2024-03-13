@@ -103,7 +103,7 @@
             </button>
 
             <p class="signup-link">
-               Sin cuenta?
+                Sin cuenta?
                 <a href="registro">Registarte</a>
             </p>
         </form>

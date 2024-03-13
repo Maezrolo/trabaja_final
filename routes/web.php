@@ -20,6 +20,8 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return 'Hola';
 });
-
+Route::get('/registro', function () {
+    return 'Hola';
+});
 Route::view('/login',"login")->name('login');
-Route::view('/registro',"registro")->name('registro');
+Route::view('/register',"register")->name('register');
