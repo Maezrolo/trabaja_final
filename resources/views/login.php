@@ -104,7 +104,7 @@
 
             <p class="signup-link">
                Sin cuenta?
-                <a href="">Registarte</a>
+                <a href="registro">Registarte</a>
             </p>
         </form>
     </div>

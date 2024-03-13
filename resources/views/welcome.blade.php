@@ -28,9 +28,10 @@
                         <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                     @else
                         <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+                        <a href="{{ route('registro') }}" class="text-sm text-gray-700 underline">registro</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('registro') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                            <a href="{{ route('/registro') }}" class="ml-4 text-sm text-gray-700 underline">Registe</a>
                         @endif
                     @endif
                 </div>
